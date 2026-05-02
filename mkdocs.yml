@@ -2,7 +2,7 @@ site_name: Laravel Mailjet
 site_description: Laravel Mailjet API V3.
 site_author: Titouan BENOIT
 copyright: MIT
-repo_url: https://github.com/mailjet/laravel-mailjet
+repo_url: https://github.com/laravel-mailjet/laravel-mailjet
 edit_uri: edit/master/docs/
 docs_dir: 'docs'
 site_dir: "doc"

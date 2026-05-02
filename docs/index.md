@@ -1,10 +1,5 @@
 # Laravel Mailjet
 
-[![Build Status](https://travis-ci.org/mailjet/laravel-mailjet.svg?branch=master)](https://travis-ci.org/mailjet/laravel-mailjet)
-[![Packagist](https://img.shields.io/packagist/v/mailjet/laravel-mailjet.svg)](https://packagist.org/packages/mailjet/laravel-mailjet)
-[![Packagist](https://img.shields.io/packagist/dt/mailjet/laravel-mailjet.svg)](https://packagist.org/packages/mailjet/laravel-mailjet)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mailjet/laravel-mailjet/blob/master/LICENSE.md)
-
 Laravel package for handling Mailjet API V3 using this wrapper: <https://github.com/mailjet/mailjet-apiv3-php>
 
 It also provide a mailjetTransport for [Laravel mail feature](https://laravel.com/docs/master/mail)
@@ -13,7 +8,7 @@ It also provide a mailjetTransport for [Laravel mail feature](https://laravel.co
 
 First, include the package in your dependencies
 
-    composer require mailjet/laravel-mailjet
+    composer require laravel-mailjet/laravel-mailjet
 
 Then, you need to add some informations in your configuration files. You can find your Mailjet API key/secret [here](https://app.mailjet.com/account/api_keys).
 

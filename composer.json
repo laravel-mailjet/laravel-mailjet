@@ -1,5 +1,5 @@
 {
-    "name": "mailjet/laravel-mailjet",
+    "name": "laravel-mailjet/laravel-mailjet",
     "description": "Laravel package for Mailjet API V3 and Laravel Mailjet Mail Transport",
     "keywords": [
         "framework",
@@ -11,7 +11,7 @@
     ],
     "license": "MIT",
     "type": "library",
-    "homepage": "https://github.com/mailjet/laravel-mailjet",
+    "homepage": "https://github.com/laravel-mailjet/laravel-mailjet",
     "authors": [
         {
             "name": "Gaetan DELBART",
