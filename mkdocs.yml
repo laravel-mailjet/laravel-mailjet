@@ -5,14 +5,15 @@ copyright: MIT
 repo_url: https://github.com/laravel-mailjet/laravel-mailjet
 edit_uri: edit/master/docs/
 docs_dir: 'docs'
-site_dir: "doc"
-pages:
+nav:
     - Home: index.md
     - Configuration: configuration.md
     - Examples: usage.md
     - Mailjet Doc: mailjet-doc.md
     - Contributing: CONTRIBUTING.md
-theme_dir: 'docs/custom_theme/material'
+theme:
+  name: material
+  custom_dir: 'docs/custom_theme/material'
 extra_css:
   - https://dev.mailjet.com/static/stylesheets/styles-redesign.css
   - stylesheets/extra.css
@@ -24,4 +25,6 @@ extra_javascript:
   - https://dev.mailjet.com/static/javascripts/my/ace-editor-redesign.js
   - https://cdn.rawgit.com/noelboss/featherlight/1.5.1/release/featherlight.min.js
 markdown_extensions:
-    - pymdownx.github
+    - pymdownx.tasklist
+    - pymdownx.tilde
+    - pymdownx.superfences
