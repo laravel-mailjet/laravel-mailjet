@@ -42,8 +42,12 @@ blockquote p {
 .header .navbar .navbar-nav li.active a {
     color: #ffffff !important;
 }
-.header .navbar .navbar-nav li a, .header .navbar .navbar-nav li a:hover {
+.header .navbar .navbar-nav li a {
     color: #ffffff !important;
+}
+.header .navbar .navbar-nav li a:hover {
+    color: #ffffff !important;
+    text-decoration: underline !important;
 }
 
 .header .navbar .navbar-nav li.active::after {
