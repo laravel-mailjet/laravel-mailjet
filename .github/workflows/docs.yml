@@ -22,4 +22,12 @@ jobs:
         run: pip install mkdocs mkdocs-material pymdown-extensions
 
       - name: Build and deploy docs
-        run: mkdocs gh-deploy --force
+        run: mkdocs build
+
+      - name: Deploy to laravel-mailjet.github.io
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.DOCS_DEPLOY_TOKEN }}
+          external_repository: laravel-mailjet/laravel-mailjet.github.io
+          publish_branch: main
+          publish_dir: ./site
