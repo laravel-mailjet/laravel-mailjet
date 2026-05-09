@@ -16,19 +16,20 @@ pre {
 }
 
 .navbar-brand {
-    padding: 20px 15px !important;
+    display: block;
+    margin: 0 10px;
 }
 
 .md-header.header {
     z-index:20;
-} 
+}
 
 blockquote {
 	margin: 0px !important;
 }
 
 blockquote p {
-	margin-top: 0px !important;	
+	margin-top: 0px !important;
 }
 
 .md-header-nav__button.md-icon--menu {
@@ -40,13 +41,11 @@ blockquote p {
 }
 
 .header .navbar .navbar-nav li.active a {
-    color: #5a75e2 !important;
+    color: #5a75e2;
 }
 .header .navbar .navbar-nav li a, .header .navbar .navbar-nav li a:hover {
-    color: #a8b3ee !important;
-}
-
-.header .navbar .navbar-nav li.active::after {
-    background-color: #5a75e2 !important;
+    color: #a8b3ee;
+    font-size: 16px;
+    line-height: 2;
 }
 
