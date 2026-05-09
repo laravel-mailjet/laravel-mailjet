@@ -10,5 +10,6 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Contributors
 
+* Maintainer: [@limonte](https://github.com/limonte)
 * Original author: [Gaetan DELBART](https://github.com/gagaXD), [Titouan BENOIT](https://github.com/Nightbr)
 * Mailjet API <api@mailjet.com>
