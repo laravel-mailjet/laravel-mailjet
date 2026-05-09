@@ -2,7 +2,7 @@
 
 Laravel package for handling Mailjet API V3 using this wrapper: <https://github.com/mailjet/mailjet-apiv3-php>
 
-It also provide a mailjetTransport for [Laravel mail feature](https://laravel.com/docs/master/mail)
+It also provides a Mailjet transport for [Laravel mail feature](https://laravel.com/docs/master/mail)
 
 ## Installation
 
@@ -10,7 +10,7 @@ First, include the package in your dependencies
 
     composer require laravel-mailjet/laravel-mailjet
 
-Then, you need to add some informations in your configuration files. You can find your Mailjet API key/secret [here](https://app.mailjet.com/account/api_keys).
+Then, you need to add some information in your configuration files. You can find your Mailjet API key/secret [here](https://app.mailjet.com/account/api_keys).
 
 * In the providers array add the service providers you want to use, for example:
 
@@ -37,7 +37,7 @@ Then, you need to add some informations in your configuration files. You can fin
 * In the services.php file
 
 ```php
-mailjet' => [
+'mailjet' => [
     'key' => env('MAILJET_APIKEY'),
     'secret' => env('MAILJET_APISECRET'),
 ]
@@ -78,9 +78,9 @@ High level API methods:
 * `Mailjet::createListRecipient($body)`
 * `Mailjet::editListrecipient($id, $body)`
 
-For more informations about the filters you can use in each methods, refer to the [Mailjet API documentation](https://dev.mailjet.com/email-api/v3/apikey/)
+For more information about the filters you can use in each method, refer to the [Mailjet API documentation](https://dev.mailjet.com/email-api/v3/apikey/)
 
-All method return `Mailjet\Response` or throw a `MailjetException` in case of API error.
+All methods return `Mailjet\Response` or throw a `MailjetException` in case of API error.
 
 You can also get the Mailjet API client with the method `getClient()` and make your own request to Mailjet API.
 

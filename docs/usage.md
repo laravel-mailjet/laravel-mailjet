@@ -39,7 +39,7 @@ Now we've created a draft campaign, we can set its most important property: the 
     $campaignDraftManager->createDetailContent($campaignDraft->getId(), $campaignDraft->getContent());
 ```
 
-Once the draft campaign draft is all set, it can now be sent via the `CampaignDraftContract`.
+Once the campaign draft is all set, it can now be sent via the `CampaignDraftContract`.
 ``` php
      /* Send the campaigndraft instance */
     $campaignDraftManager->sendCampaign($campaignDraft->getId());
@@ -50,7 +50,7 @@ Once the draft campaign draft is all set, it can now be sent via the `CampaignDr
 The `/template` resource allows to store your template on the Mailjet system.
 To create a template you only need to provide a name.
 
-You can than reuse the template in your messages by referencing the ID returned when created.
+You can then reuse the template in your messages by referencing the ID returned when created.
 
 In the providers array inside `app.php` add:
 
@@ -154,7 +154,7 @@ public function changeEmailAddress(ContactsListContract $ContactsListManager, $o
 
 ## Retrieve Mailjet Client instance to perform custom requests
 
-You can retrieve the `MailjetClient` instance, as defined in the PHP [wrapper]((https://github.com/mailjet/mailjet-apiv3-php)), using the method `getClient()`. It enables you to perform custom requests to Mailjet API.
+You can retrieve the `MailjetClient` instance, as defined in the PHP [wrapper](https://github.com/mailjet/mailjet-apiv3-php), using the method `getClient()`. It enables you to perform custom requests to Mailjet API.
 
 * In the providers array
 
